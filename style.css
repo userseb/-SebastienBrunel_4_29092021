@@ -45,6 +45,24 @@ a:focus-visible{
     padding-left: 0;
     padding-right: 0;
 }
+.citation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-size:21px;
+    width:100%;  
+}
+.text-citation {
+    font-size:19px;
+    font-weight: 500;
+    width: 100%;
+    padding: 0 10%;
+    margin: 0;
+}
+.realisation {
+    font-size:22px
+}
 
 .bloc-lg {
     padding: 100px 50px;
@@ -683,7 +701,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
